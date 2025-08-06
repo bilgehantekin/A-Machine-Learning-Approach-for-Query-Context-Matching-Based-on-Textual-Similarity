@@ -102,7 +102,13 @@ Each record contains:
 
 <img width="724" height="580" alt="image" src="https://github.com/user-attachments/assets/fb44c45f-d45f-4f93-b692-4a71a935a4d7" />
 
-<img width="724" height="580" alt="image" src="https://github.com/user-attachments/assets/2a1ba006-4367-4d9a-b207-4073e211dde4" />
+| Metric     | Value    |
+|------------|----------|
+| Accuracy   | 93.41%   |
+| Precision  | 60.07%   |
+| Recall     | 58.02%   |
+| **F1-score** | **59.04%** |
+
 
 Adjust accordingly based on your run.
 
@@ -125,7 +131,6 @@ Install via:
 
 ```bash
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm
 ```
 
 
